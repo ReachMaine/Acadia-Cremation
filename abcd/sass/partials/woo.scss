@@ -1,0 +1,13 @@
+/* -------------- woocommerce styling -------------- */
+$abcd-primary: #80011F; // burgandy
+
+
+.woocommerce ul.products li.product, 
+.woocommerce-page ul.products li.product {
+	padding-right: 0px!important;
+	padding-bottom: 0px!important; // over ride skins padding.
+}
+
+.woocommerce ul.products li.product h3 {
+	text-align: center;
+}

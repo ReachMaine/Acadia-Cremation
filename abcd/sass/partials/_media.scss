@@ -1,0 +1,87 @@
+/* ----  Media Settings --------------------------------- */
+@media (min-width: 800px){
+	/* obits */
+	article.post_item_single.category-obituary {
+		.post_featured {
+			padding-right: 2em;
+			float: left;
+		}
+	}
+}
+
+@media (min-width: 960px){
+	.top_panel_wrap {
+		.menu_main_wrap {
+			.content_wrap { // width is set to 850px
+				.logo {
+				}
+				.abcd-top-phone-wrap {
+					width: 350px;
+				}
+			}
+		}
+	}
+}
+// larger tablet
+@media (max-width: 959px) and (min-width: 800px) {
+	.top_panel_wrap {
+		.menu_main_wrap {
+			.content_wrap { // width is set to 720px
+				.logo {
+					width: 400px;
+				}
+				.abcd-top-phone-wrap {
+					width: 300px;
+				}
+			}
+		}
+	}
+}
+// medium width = tablet
+@media (max-width: 799px) and (min-width: 480px) {
+	// stack header blocks
+	.top_panel_wrap {
+		.menu_main_wrap {
+			.content_wrap { // width is set to 720px
+				.logo {
+					width: 400px;
+				}
+				.abcd-top-phone-wrap {
+					width: 350px;
+					float: none;
+				}
+			}
+		}
+	}
+	.menu_main_responsive_button {
+		//display: none!important;
+	}
+	.sidebar aside {
+		padding: 0 3em!important; // trying to over-ride the skin-responsive.css
+	}
+}
+@media (min-width: 640px) {
+	.menu_main_responsive_button {
+		display: none!important;
+	}
+}
+@media (max-width: 639px) {
+	.menu_main_responsive_button {
+		display: block!important;
+	}
+}
+@media (max-width: 479px) {
+	.top_panel_wrap {
+		.menu_main_wrap {
+			.content_wrap { // width is set to 720px
+				.logo {
+				}
+				.abcd-top-phone-wrap {
+				    width: 80%;
+					float: left;
+				}
+			}
+		}
+	}
+}
+/* end Media Settings ------------------------------------------ */

@@ -1,0 +1,8 @@
+/* -------------- woocommerce styling -------------- */
+.woocommerce ul.products li.product,
+.woocommerce-page ul.products li.product {
+  padding-right: 0px !important;
+  padding-bottom: 0px !important; }
+
+.woocommerce ul.products li.product h3 {
+  text-align: center; }

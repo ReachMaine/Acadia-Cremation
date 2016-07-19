@@ -1,0 +1,143 @@
+@charset 'utf-8';
+/*
+ Theme Name:   Acadia Cremation
+ Description:  Child theme of Blessing Theme
+ Author:       Reach Maine
+ Author URI:   http://reachmaine.com
+ Template:     blessing
+ Version:      1.4
+ Tags:         light, inheritable theme-options
+ Text Domain:  ancora
+*/
+
+
+@import url("../blessing/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+@import "partials/settings"; // keep at end of of file 
+
+/* header */
+header {
+	.abcd-top-phone-wrap {
+		//max-width: 40%;
+		.abcd-top-phone-img {
+			border: 0px;
+			padding: 0px;
+			margin-right: 0px;
+		}
+		.abcd-top-phone-text { // phone number & under text 
+			text-align: right;
+			font-size: 1.3em;
+			//font-size: 1em;
+			h4 {
+				padding-bottom: 10px;
+			}
+		}
+	}
+	.menu_main_wrap .menu_main_nav_area .menu_main_responsive .sub-menu a {
+		font-size: 100%;
+	}
+}
+
+
+div.logo .contein_logo_text {
+display: block;
+}
+
+span.logo_slogan {
+font-size: 23px;
+color: #333333;
+}
+
+.menu_main_wrap .logo_main {
+max-height: 130px;
+height: auto;
+}
+
+
+
+/* nav */
+.menu_main_wrap .menu_main_nav > li.blob_over.sfHover {
+    background-color: #f1ad48;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
+ }
+
+ /* content */
+.abcd-section-header {
+	font-size: xx-large;
+	padding-bottom: 32px;
+}
+
+section.post_content h3 {
+	margin-top: 1em;
+	margin-bottom: .6em;
+}
+
+section.post_content h2 {
+	margin-top: 1.2em;
+	margin-bottom: .8em;
+}
+
+p, li {
+font-size: 1.3em;
+color: #3a3a3a;
+}
+/* obits on home page */
+
+/* obits  - single*/
+article.post_item_single.category-obituary {
+	.post_featured {
+		max-width: 312px;
+		.post_thumb img {
+			max-width: 300px;
+			border-color: #595959; // put dark border around obit pict.
+		}
+	}
+}
+/* comment/consolences */
+.comments_form {
+	.abcd-condol-wrap {
+		padding-bottom: 1em;
+		.abcd-condol-NB {
+			// 
+		}
+	}
+	.gglcptch {
+		clear: both;
+	}
+}
+
+/* footer */
+
+.widget_area .widget_title, div.textwidget {
+text-align: center;
+}
+
+.row, .columns_wrap {
+font-size: 1.3em;
+}
+
+/*  comparison table. */
+.tablepress {table-layout: fixed;width: 100%;}
+
+.tablepress-id-1 .column-1 {
+	width: 30%;
+}
+
+.tablepress-id-1 .column-2 {
+	width: 30%;
+	text-align: center;
+}
+
+.tablepress-id-1 .column-3 {
+	width: 30%;
+	text-align: center;
+}
+
+@import "partials/woo"; 
+@import "partials/media"; // keep at end of of file 

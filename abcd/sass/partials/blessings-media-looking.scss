@@ -1,0 +1,69 @@
+@charset "utf-8";
+
+/* Responsive styles
+-------------------------------------------------------------- */
+
+/*
+Apple iPhone 5, 5S & 5C 
+Apple iPod Touch (5th generation)
+*/
+@media (min-width: 1136px) and (max-width: 1279px) {
+
+}
+
+/*
+Apple iPhone 4 & 4S
+Apple iPod Touch (4th generation)
+*/
+@media (min-width: 960px) and (max-width: 1135px) {
+
+	
+}
+
+
+
+/*
+Sony Xperia
+LG Optimus
+Blackberry Storm 3, Torch 9850 & Torch 9860
+Nokia Lumia 610, 710 & 800
+HTC Desire, Desire Z, Desire S & One V
+Samsung Galaxy
+*/
+@media (min-width: 800px) and (max-width: 959px) {
+	
+	
+}
+
+
+
+/*
+Portrait orientation
+
+Sony Xperia
+LG Optimus
+Blackberry Storm 3, Torch 9850 & Torch 9860
+Nokia Lumia 610, 710 & 800
+HTC Desire, Desire Z, Desire S & One V
+Samsung Galaxy
+*/
+@media (min-width: 480px) and (max-width: 799px) {
+	
+}
+
+
+/*
+Very common low res
+*/
+@media (max-width: 479px) {
+  
+
+}
+
+
+@media (max-width: 418px) {
+  
+}
+@media (max-width: 320px) {
+  
+}
