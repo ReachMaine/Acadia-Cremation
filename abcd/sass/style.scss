@@ -15,7 +15,7 @@
 
 /* =Theme customization starts here
 -------------------------------------------------------------- */
-@import "partials/settings"; // keep at end of of file 
+@import "partials/settings"; // keep at end of of file
 
 /* header */
 header {
@@ -26,7 +26,7 @@ header {
 			padding: 0px;
 			margin-right: 0px;
 		}
-		.abcd-top-phone-text { // phone number & under text 
+		.abcd-top-phone-text { // phone number & under text
 			text-align: right;
 			font-size: 1.3em;
 			//font-size: 1em;
@@ -104,12 +104,16 @@ article.post_item_single.category-obituary {
 	.abcd-condol-wrap {
 		padding-bottom: 1em;
 		.abcd-condol-NB {
-			// 
+			//
 		}
 	}
 	.gglcptch {
 		clear: both;
 	}
+}
+
+.comments_list_wrap .comment_content {
+	margin-left: 0px!important;
 }
 
 /* footer */
@@ -139,5 +143,5 @@ font-size: 1.3em;
 	text-align: center;
 }
 
-@import "partials/woo"; 
-@import "partials/media"; // keep at end of of file 
+@import "partials/woo";
+@import "partials/media"; // keep at end of of file
