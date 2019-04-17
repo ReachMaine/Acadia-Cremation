@@ -42,7 +42,10 @@
             font-size: .7em;
           }
         }
-      } // fields
+      } // regular field
+      li.gfield.abcd-gf-nobottomborder {
+        border-bottom: 0px;
+      } // end field nobottomborder
     }
   }
 

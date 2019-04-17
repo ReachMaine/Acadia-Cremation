@@ -38,6 +38,8 @@
   .gform_wrapper .gform_body ul.gform_fields li.gfield ul.gfield_checkbox label,
   .gform_wrapper .gform_body ul.gform_fields li.gfield ul.gfield_radio label {
     font-size: .7em; }
+  .gform_wrapper .gform_body ul.gform_fields li.gfield.abcd-gf-nobottomborder {
+    border-bottom: 0px; }
   .gform_wrapper .gform_footer {
     text-align: right; }
 
