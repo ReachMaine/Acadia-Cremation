@@ -35,7 +35,12 @@ require_once(get_stylesheet_directory().'/custom/gforms.php');
 		echo '<link rel="shortcut icon" href="' . $favicon_url . '" />';
 	} */
 	/***** end admin favicon *****/
-
+	// trying to work around error in function called by
+	if ( !function_exists( 'ancora_reviews_marks_to_display' ) ) {
+		function ancora_reviews_marks_to_display($marks) {
+			return false;
+		}
+	}
 	/* add notes before comment form */
 	add_action('comment_form_top' , 'abcd_consolences_before');
 	function abcd_consolences_before() {
